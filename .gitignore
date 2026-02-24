@@ -54,6 +54,7 @@ venv/
 .env/
 .venv/
 BioliveCheckService_venv/
+local_audio_model/
 
 # Python cache
 __pycache__/
