@@ -1,1 +1,120 @@
-# Sample ignore 
+# =========================================================
+# GLOBAL (OS + IDE)
+# =========================================================
+
+# OS files
+.DS_Store
+Thumbs.db
+desktop.ini
+
+# IDE
+.idea/
+.vscode/
+*.iml
+
+# Logs
+*.log
+logs/
+*.out
+
+# =========================================================
+# ================== SPRING BOOT (JAVA) ==================
+# =========================================================
+
+# Maven
+target/
+pom.xml.tag
+pom.xml.releaseBackup
+pom.xml.versionsBackup
+pom.xml.next
+release.properties
+dependency-reduced-pom.xml
+
+# Gradle (if ever used)
+.gradle/
+build/
+
+# Compiled class files
+*.class
+
+# Package files
+*.jar
+*.war
+*.ear
+
+# Spring Boot
+spring.log
+
+# =========================================================
+# ================== PYTHON / FASTAPI =====================
+# =========================================================
+
+# Virtual environments
+venv/
+.env/
+.venv/
+BioliveCheckService_venv/
+
+# Python cache
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution
+dist/
+build/
+*.egg-info/
+
+# Jupyter
+.ipynb_checkpoints/
+
+# FastAPI specific
+*.db
+*.sqlite3
+
+# Environment files
+.env
+.env.*
+
+# Coverage / test
+.coverage
+htmlcov/
+.pytest_cache/
+
+# =========================================================
+# ================== NODE (IF FRONTEND) ===================
+# =========================================================
+
+node_modules/
+package-lock.json
+yarn.lock
+
+# =========================================================
+# ================== DOCKER ===============================
+# =========================================================
+
+*.tar
+docker-compose.override.yml
+
+# =========================================================
+# ================== AI / ML MODELS =======================
+# =========================================================
+
+# Large models
+*.pth
+*.pt
+*.h5
+*.onnx
+*.ckpt
+
+# Dataset files
+datasets/
+data/
+
+# =========================================================
+# ================== TEMP FILES ===========================
+# =========================================================
+
+*.tmp
+*.bak
+*.swp
