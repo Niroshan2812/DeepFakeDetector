@@ -1,0 +1,9 @@
+services:
+  reverse_engineering:
+    build: .
+    ports:
+      - "8003:8003"
+    deploy:
+      resources:
+        limits:
+          memory: 512M # The OS will instantly OOMKill the container if it exceeds 512MB RAM
