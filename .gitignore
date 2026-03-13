@@ -41,6 +41,7 @@ build/
 *.jar
 *.war
 *.ear
+*.cmd
 
 # Spring Boot
 spring.log
@@ -57,6 +58,7 @@ BioliveCheckService_venv/
 local_audio_model/
 local_vision_model/
 local_nlp_model/
+mvnw
 
 # Python cache
 __pycache__/

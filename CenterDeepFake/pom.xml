@@ -9,10 +9,10 @@
         <relativePath>../pom.xml</relativePath>
     </parent>
     <groupId>com.intelligent</groupId>
-    <artifactId>CenterDeepFacke</artifactId>
+    <artifactId>CenterDeepFake</artifactId>
     <version>0.0.1-SNAPSHOT</version>
-    <name>CenterDeepFacke</name>
-    <description>CenterDeepFacke</description>
+    <name>CenterDeepFake</name>
+    <description>CenterDeepFake Orchestrator Service</description>
     <url/>
     <licenses>
         <license/>
@@ -29,7 +29,27 @@
     <properties>
         <java.version>21</java.version>
     </properties>
+
+    <repositories>
+        <repository>
+            <id>jitpack.io</id>
+            <url>https://jitpack.io</url>
+        </repository>
+    </repositories>
+
     <dependencies>
+        <!-- Aegis Pipeline Core (Commented out temporarily until JitPack resolution works)
+        <dependency>
+            <groupId>com.github.Niroshan2812</groupId>
+            <artifactId>aegis-pipeline-core</artifactId>
+            <version>main-SNAPSHOT</version>
+        </dependency>
+        -->
+        <!-- Spring Boot Web -->
+        <dependency>
+            <groupId>org.springframework.boot</groupId>
+            <artifactId>spring-boot-starter-web</artifactId>
+        </dependency>
         <dependency>
             <groupId>org.springframework.boot</groupId>
             <artifactId>spring-boot-starter</artifactId>
